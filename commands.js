@@ -30,7 +30,6 @@ const commands = [
     },
 ];
 
-// Ensure you're using async IIFE (Immediately Invoked Function Expression)
 (async () => {
   const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
